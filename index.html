@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+		<h1 class="label">Sign Up</h1>
+		<form class="form" action = "home.html" method="post" name="form" onsubmit="return validate()">
+			<div class="font">Username</div>
+			<input class = "box" autocomplete="off" type="text" name="name">
+			<div id="name-error">Please fill your Username</div>
+			<div class="font">Password</div>
+			<input class = "box" type="password" name="password">
+			<div id="pass-error">Password should contain atleast 5 characters</div>
+			<button class = "btn btn-4" type="submit">Submit</button>
+		</form>
+	</div>	
+    <script src="index.js"></script>
+</body>
+</html>
